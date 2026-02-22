@@ -4,10 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="img/BLACK-LOGO.png" sizes="200x200">
+  <link rel="apple-touch-icon" href="img/BLACK-LOGO.png">
 </head>
 <body>
-
+<div class="page-transition"></div>
 <header class="HEADER">
   <a href="index.html">
   <img id="header-logo" class="header-logo" src="img/LOGO.png" alt="header-logo">
@@ -48,36 +50,73 @@
     </div>
   </section>
 
-  <h1 class="expertise-title">My Expertise</h1>
+  <section class="expertise-modern" aria-labelledby="expertise-title">
+    <header class="expertise-modern-head">
+      <h2 id="expertise-title">My Expertise</h2>
+      <p>A quick overview of my tools and where I create the most impact.</p>
+    </header>
 
-  <section class="expertise">
-    <div class="skills">
-      <h2>SOFT SKILLS</h2>
-      <ul>
-        <li>Patience</li>
-        <li>Communication</li>
-        <li>Collaboration</li>
-        <li>Creativity</li>
-        <li>Flexibility</li>
-        <li>Work Ethic</li>
-        <li>Ability to work under pressure</li>
-        <li>Time Management</li>
-      </ul>
+    <div class="expertise-modern-panel">
+      <div class="expertise-modern-left">
+        <section class="expertise-group" aria-labelledby="tech-stack-title">
+          <h3 id="tech-stack-title">Technical Stack</h3>
+          <ul class="skill-pills" aria-label="Technical Stack">
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Dart</li>
+            <li>Flutter</li>
+          </ul>
+        </section>
+
+        <section class="expertise-group" aria-labelledby="core-strengths-title">
+          <h3 id="core-strengths-title">Core Strengths</h3>
+          <ul class="skill-pills" aria-label="Core Strengths">
+            <li>Creativity</li>
+            <li>Collaboration</li>
+            <li>Communication</li>
+            <li>Flexibility</li>
+            <li>Patience</li>
+            <li>Problem Solving</li>
+            <li>Time Management</li>
+            <li>Work Ethic</li>
+          </ul>
+        </section>
+      </div>
+
+      <aside class="expertise-modern-right" aria-labelledby="do-best-title">
+        <h3 id="do-best-title">What I Do Best</h3>
+        <ul class="expertise-points">
+          <li>Build responsive, user-centered interfaces</li>
+          <li>Translate designs into clean, production-ready UI</li>
+          <li>Write maintainable front-end code with clear structure</li>
+          <li>Collaborate effectively and communicate progress clearly</li>
+          <li>Adapt quickly and work well under pressure</li>
+        </ul>
+        <p class="expertise-note">Always focused on clean UI + maintainable code.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="soft-skills-modern" aria-labelledby="soft-skills-title">
+    <div class="soft-skills-modern-head">
+      <h2 id="soft-skills-title">SOFT SKILLS</h2>
+      <p>These strengths guide how I collaborate, solve problems, and stay reliable under pressure.</p>
     </div>
 
-    <div class="skills">
-      <h2>TECHNICAL SKILLS</h2>
-      <ul>
-        <li>Python</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>PHP</li>
-        <li>MySQL</li>
-        <li>Dart</li>
-        <li>Flutter</li>
-      </ul>
-    </div>
+    <ul class="soft-skills-list" aria-label="Soft Skills">
+      <li>Patience</li>
+      <li>Communication</li>
+      <li>Collaboration</li>
+      <li>Creativity</li>
+      <li>Flexibility</li>
+      <li>Work Ethic</li>
+      <li>Ability to work under pressure</li>
+      <li>Time Management</li>
+    </ul>
   </section>
 
 </main>

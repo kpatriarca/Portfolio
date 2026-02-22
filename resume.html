@@ -4,14 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Resume</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="img/BLACK-LOGO.png" sizes="200x200">
+  <link rel="apple-touch-icon" href="img/BLACK-LOGO.png">
 </head>
 <body>
-
+<div class="page-transition"></div>
 <header class="HEADER">
   <a href="index.html">
-  <img id="header-logo" class="header-logo" src="img/LOGO.png" alt="header-logo">
-</a>
+    <img id="header-logo" class="header-logo" src="img/LOGO.png" alt="header-logo" />
+  </a>
 
   <div class="header-right">
     <nav class="NAVIGATIONS">
@@ -23,85 +25,113 @@
     </nav>
 
     <button class="LIGHT-NIGHT" aria-label="Toggle dark mode">
-  <img id="theme-icon" src="img/NIGHT.png" alt="Theme toggle">
-</button>
-
+      <img id="theme-icon" src="img/NIGHT.png" alt="Theme toggle" />
+    </button>
   </div>
 </header>
 
-<section class="resume-section">
+<main class="resumea-page">
+  <div class="resumea-container">
+    <div class="resumea-layout">
+      <aside class="resumea-sidebar" aria-label="Resume Sidebar">
+        <header class="resumea-identity">
+          <h1>Patriarca, Kenneth Euan Sean T.</h1>
+          <p class="resumea-role">Web Developer | UI/UX Designer</p>
+        </header>
 
-  <div class="resume-top">
-    <h1 class="resume-title">RESUME</h1>
-    <a href="pdf/resume.pdf" class="download-btn">DOWNLOAD RESUME</a>
-  </div>
+        <section class="resumea-block" aria-labelledby="resumea-contact-title">
+          <h2 id="resumea-contact-title" class="resumea-title">Contact</h2>
+          <ul class="resumea-contact-list">
+            <li><span>Phone:</span> 0976-151-8104</li>
+            <li><span>Email:</span> <a href="mailto:kestpatriarca18@gmail.com">kestpatriarca18@gmail.com</a></li>
+            <li><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/kenneth-patriarca/" target="_blank" rel="noopener noreferrer">kenneth-patriarca</a></li>
+            <li><span>Portfolio:</span> kestpatriarca.dev</li>
+            <li><span>Address:</span> 3670 Delos Santos Street, Lourdes Northwest, Angeles City, Pampanga</li>
+          </ul>
+        </section>
 
-  <h2 class="section-heading">Summary of Qualifications</h2>
+        <section class="resumea-block" aria-labelledby="resumea-hobby-title">
+          <h2 id="resumea-hobby-title" class="resumea-title">Hobbies &amp; Interests</h2>
+          <ul class="resumea-simple-list resumea-two-col">
+            <li>Singing</li>
+            <li>Learning / Exploring</li>
+            <li>Working Out / Gym</li>
+            <li>Graphic Designing</li>
+            <li>Planning / Managing</li>
+            <li>Photography</li>
+          </ul>
+        </section>
 
-  <div class="summary-box">
-    <ul>
-      <li>Proficient in HTML, CSS, JavaScript, PHP, MySQL, and Python, with foundational knowledge in Dart and Flutter for mobile development.</li>
-      <li>Experienced in designing and developing responsive, user-friendly websites through team-based school projects.</li>
-      <li>Strong communication and collaboration skills, enabling effective teamwork in group-based development tasks.</li>
-      <li>Highly responsible, organized, and patient, with excellent time management and the ability to work efficiently under pressure.</li>
-    </ul>
-  </div>
+        <section class="resumea-block" aria-labelledby="resumea-ref-title">
+          <h2 id="resumea-ref-title" class="resumea-title">References</h2>
+          <p class="resumea-reference">Available upon request</p>
+        </section>
+      </aside>
 
-  <div class="divider-horizontal"></div>
-
-  <div class="resume-bottom">
-
-    <div class="resume-column">
-      <h2 class="section-heading">Certifications</h2>
-      <div class="info-box">
-        <p><strong>freeCodeCamp</strong></p>
-        <ul>
-          <li>Responsive Web Design</li>
-        </ul>
-
-        <p><strong>freeCodeCamp</strong></p>
-        <ul>
-          <li>JavaScript Algorithms and Data Structures</li>
-        </ul>
+      <section class="resumea-main" aria-label="Resume Main Content">
+        <div class="resume-top">
+      <h1 class="resume-title">RESUME</h1>
+      <a href="pdf/resume.pdf" class="download-btn">DOWNLOAD RESUME</a>
       </div>
+        <section class="resumea-section" aria-labelledby="objective-title">
+          <h2 id="objective-title" class="resumea-title">Career Objective</h2>
+          <p class="resumea-objective">
+            Determined to obtain an internship opportunity as a Web Developer and UI/UX Designer where I can implement and utilize my innovative ideas, technical skills, and creativity in accomplishing projects, achieving organizational targets, and delivering high-quality performance while continuously growing professionally.
+          </p>
+        </section>
+
+        <section class="resumea-section" aria-labelledby="main-summary-title">
+          <h2 id="main-summary-title" class="resumea-title">Summary of Qualifications</h2>
+          <div class="resumea-skill-group">
+            <ul class="resumea-main-list">
+              <li>Proficient in HTML, CSS, JavaScript, PHP, MySQL, and Python, with foundational knowledge in Dart and Flutter for mobile development.</li>
+              <li>Experienced in designing and developing responsive, user-friendly websites through team-based school projects.</li>
+              <li>Strong communication and collaboration skills, enabling effective teamwork in group-based development tasks.</li>
+              <li>Highly responsible, organized, and patient, with excellent time management and the ability to work efficiently under pressure.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="resumea-section" aria-labelledby="main-cert-title">
+          <h2 id="main-cert-title" class="resumea-title">Certifications</h2>
+          <div class="resumea-skill-group">
+            <ul class="resumea-main-list">
+              <li>freeCodeCamp: Responsive Web Design</li>
+              <li>freeCodeCamp: JavaScript Algorithms and Data Structures</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="resumea-section" aria-labelledby="education-title">
+          <h2 id="education-title" class="resumea-title">Education</h2>
+          <div class="resumea-education">
+            <h3>Holy Angel University | 2023 - 2026</h3>
+            <p>Bachelor of Science in Information Technology</p>
+            <p>Major in Web Development</p>
+            <p class="resumea-honors">Academic Honors: Dean's Lister, A.Y. 2023-2025</p>
+          </div>
+        </section>
+      </section>
     </div>
-
-    <div class="divider-vertical"></div>
-
-    <div class="resume-column">
-      <h2 class="section-heading">Educational Background</h2>
-      <div class="info-box">
-        <h3>Holy Angel University</h3>
-        <p>2023 - 2026</p>
-        <p>Bachelor of Science in Information Technology</p>
-        <p>Major in Web Development</p>
-        <ul>
-          <li>Academic Honors: Dean’s Lister, A.Y. 2023 - 2025</li>
-        </ul>
-      </div>
-    </div>
-
   </div>
-
-</section>
+</main>
 
 <footer class="FOOTER">
   <div class="footer-left">
     <h3>CONNECT WITH ME:</h3>
     <div class="footer-socials">
-      <a href="https://www.linkedin.com/in/euan-patriarca-a29807372/" target="_blank"><img src="img/LI.png"></a>
-      <a href="https://github.com/kpatriarca" target="_blank"><img src="img/GH.png"></a>
-      <a href="https://www.facebook.com/kestptr" target="_blank"><img src="img/FB.png"></a>
-      <a href="https://www.instagram.com/" target="_blank"><img src="img/IG.png"></a>
+      <a href="https://www.linkedin.com/in/euan-patriarca-a29807372/" target="_blank"><img src="img/LI.png" alt="LinkedIn" /></a>
+      <a href="https://github.com/kpatriarca" target="_blank"><img src="img/GH.png" alt="GitHub" /></a>
+      <a href="https://www.facebook.com/kestptr" target="_blank"><img src="img/FB.png" alt="Facebook" /></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="img/IG.png" alt="Instagram" /></a>
     </div>
   </div>
 
   <div class="footer-center">
-  <a href="index.html">
-    <img id="footer-logo" class="footer-logo" src="img/LOGO.png" alt="Logo">
-  </a>
-</div>
-
+    <a href="index.html">
+      <img id="footer-logo" class="footer-logo" src="img/LOGO.png" alt="Logo" />
+    </a>
+  </div>
 
   <div class="footer-right">
     <p>&gt; 3670 Delos Santos Street, Lourdes Northwest, Angeles City, Pampanga</p>
@@ -110,9 +140,10 @@
   </div>
 
   <p class="copyright">
-    ©2026. All rights reserved by Kenneth Patriarca
+    (c)2026. All rights reserved by Kenneth Patriarca
   </p>
-  </footer>
-  <script src="js/script.js"></script>
+</footer>
 
+<script src="js/script.js"></script>
 </body>
+</html>

@@ -4,9 +4,12 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Home</title>
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="icon" type="image/png" href="img/BLACK-LOGO.png" sizes="200x200">
+<link rel="apple-touch-icon" href="img/BLACK-LOGO.png">
 </head>
 <body>
+<div class="page-transition"></div>
 <div class="home">
 
 <header class="HEADER">
@@ -32,7 +35,11 @@
 
 <section class="hero" id="home">
 <div class="hero-left">
-<h1>Hello there,<br>I'm Kenneth Patriarca!<br><span>a Front-End Web Developer <br>and UI/UX Designer</br></span></h1>
+<h1>Hello there,<br>I'm <span class="hero-name">Kenneth Patriarca!</span><br><span class="hero-animated">
+  <span id="changing-text">
+    a Front-End Web Developer
+  </span>
+</span></h1>
 
 <div class="social-links">
 <a href="https://github.com/kpatriarca" target="_blank"><img src="img/GH.png" alt="GitHub"></a>
@@ -62,7 +69,7 @@
   <div class="project-content">
     <h3>AllowanceSense</h3>
     <p>AllowanceSense is a PHP-based budgeting web application that helps students track expenses, manage allowances, and build responsible financial habits through real-time calculations, interactive design, and secure data handling.</p>
-    <a href="#" class="btn-outline">VIEW PROJECT</a>
+    <a href="#" class="btn-outline">View Project</a>
   </div>
 </div>
 
@@ -71,9 +78,21 @@
   <div class="project-content">
     <h3>SneakersCartel</h3>
     <p>SneakersCartel is a modern and responsive blog website designed to showcase sneaker trends, featured products, and lifestyle content for students and sneaker enthusiasts using HTML, CSS, and JavaScript.</p>
-    <a href="#" class="btn-outline">VIEW PROJECT</a>
+    <a href="#" class="btn-outline">View Project</a>
   </div>
 </div>
+</section>
+
+<section class="home-cta" aria-labelledby="home-cta-title">
+  <div class="home-cta-inner">
+    <p class="home-cta-kicker">READY TO COLLABORATE?</p>
+    <h2 id="home-cta-title">Let's Build Something Great</h2>
+    <p class="home-cta-text">Have a project idea, redesign need, or website goal in mind? Let's discuss your vision and turn it into a clean, high-impact digital experience.</p>
+    <div class="home-cta-actions">
+      <a href="contact.html" class="home-cta-btn home-cta-btn-primary">Start a Project</a>
+      <a href="contact.html" class="home-cta-btn home-cta-btn-secondary">Contact Me</a>
+    </div>
+  </div>
 </section>
 
   <footer class="FOOTER">
@@ -107,3 +126,7 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 230359a (Updated layout, added page transitions, reorganized CSS folder)
