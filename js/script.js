@@ -132,4 +132,13 @@ document.querySelectorAll("a[href]").forEach(link => {
   });
 });
 
+const hamburger = document.getElementById("hamburger");
+const nav = document.querySelector(".NAVIGATIONS");
+
+if (hamburger && nav) {
+  hamburger.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+}
+
 });
