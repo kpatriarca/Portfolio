@@ -2691,6 +2691,16 @@ form button {
     margin-bottom: 28px;
   }
 
+
+  .expertise-modern-right {
+    border-left: none !important;
+    padding-left: 0;
+  }
+
+  body.dark-mode .expertise-modern-right {
+    border-left: none !important;
+  }
+
   .filter {
     gap: 10px;
     margin-bottom: 28px;
@@ -2807,11 +2817,31 @@ form button {
     height: 180px;
   }
 
+  .hero-right .btn {
+    width: auto;
+    padding: 10px 18px;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
   .btn,
   .btn-outline,
   .projects-btn {
-    width: 100%;
     text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+  .about-box::before {
+    left: 50%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+  }
+
+  .line-dot {
+    left: 50%;
+    top: 45%;
+    transform: translateX(-50%);
+  }
   }
 }
 
