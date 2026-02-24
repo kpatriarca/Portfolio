@@ -2244,6 +2244,9 @@ body.dark-mode .soft-skills-list li:hover {
   box-shadow: 0 14px 30px rgba(7, 19, 34, 0.14);
 }
 
+.contact-card p {
+  margin-bottom: 10px;
+}
 body.dark-mode .contact-card {
   border: 1px solid rgba(121, 163, 196, 0.3);
   box-shadow: 0 18px 34px rgba(0, 0, 0, 0.24);
